@@ -1,0 +1,138 @@
+/* Set background color */
+
+body {
+    background-color: #f2f2f2;
+    background: url('https://images.unsplash.com/photo-1590487988256-9ed24133863e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1028&q=80');
+}
+
+
+/* Center the form on the page */
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.editit {
+    display: inline-block;
+}
+
+.form {
+    border: 2px solid grey;
+    display: inline-block;
+    margin: 2px 2px;
+    padding: 2px 4px;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+    margin: auto;
+}
+
+.container h2 {
+    color: rgb(250, 250, 250);
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+
+/* Style form fields */
+
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #deba9a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+/* Style radio buttons and checkboxes */
+
+input[type=radio],
+input[type=checkbox] {
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+/* Style submit and reset buttons */
+
+input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+
+/* Style form labels */
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Style form title */
+
+h1 {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    color: #333;
+    color: rgb(243, 240, 240);
+}
+
+
+/* Style form background image */
+
+body {
+    /* background: url("/formphoto.avif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rosybrown;
+    /* border: 2px solid grey; */
+}

@@ -1,95 +1,95 @@
-body {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Baloo Bhai 2', cursive;
-    color: azure;
-    margin: 0px;
-    padding: 0px;
-    background: url("photo.jpeg");
-}
-
-.left {
-    /*border: 2px solid grey;*/
-    display: inline-block;
-    position: absolute;
-    top: 15px;
-    left: 34px;
-}
-
-.left div {
-    text-align: center;
-}
-
-.left img {
-    width: 92px;
-}
-
-.mid {
-    /*border: 2px solid palegreen;*/
-    display: block;
-    width: 657px;
-    margin: 15px auto;
-}
-
-.right {
-    /*border: 2px solid palevioletred;*/
-    display: inline-block;
-    position: absolute;
-    top: 29px;
-    right: 21px;
-}
-
-.btn {
-    margin: 04px 9px;
-    padding: 3px 11px;
-    color: black;
-    background-color: #fae9b8;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.btn a {
-    text-decoration: none;
-    color: black;
-}
-
-.btn:hover {
-    background-color: rgb(179, 164, 107);
-}
-
-.navbar {
-    display: inline-block;
-}
-
-.navbar li {
-    display: inline-block;
-    text-decoration: none;
-}
-
-.navbar li a {
-    color: antiquewhite;
-    padding: 12px 23px;
-    text-decoration: none;
-}
-
-.navbar li a:hover,
-.navbar li a.active {
-    text-decoration: none;
-    color: cadetblue
-}
-
-.navbar li a.active {
-    text-decoration: underline;
-}
-
-.container {
-    border: 5px solid #f7f7f7;
-    margin: 101px 31px;
-    border-radius: 32px;
-    padding: 60px 12px;
-    width: 609px;
-}
-
-.div left p:hover {
-    background-color: beige;
-}
+        body {
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: azure;
+            margin: 0px;
+            padding: 0px;
+            background: url("photo.jpeg");
+        }
+        
+        .left {
+            /*border: 2px solid grey;*/
+            display: inline-block;
+            position: absolute;
+            top: 15px;
+            left: 34px;
+        }
+        
+        .left div {
+            text-align: center;
+        }
+        
+        .left img {
+            width: 92px;
+        }
+        
+        .mid {
+            /*border: 2px solid palegreen;*/
+            display: block;
+            width: 657px;
+            margin: 15px auto;
+        }
+        
+        .right {
+            /*border: 2px solid palevioletred;*/
+            display: inline-block;
+            position: absolute;
+            top: 29px;
+            right: 21px;
+        }
+        
+        .btn {
+            margin: 04px 9px;
+            padding: 3px 11px;
+            color: black;
+            background-color: #fae9b8;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        .btn a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .btn:hover {
+            background-color: rgb(179, 164, 107);
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            text-decoration: none;
+        }
+        
+        .navbar li a {
+            color: antiquewhite;
+            padding: 12px 23px;
+            text-decoration: none;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: none;
+            color: cadetblue
+        }
+        
+        .navbar li a.active {
+            text-decoration: underline;
+        }
+        
+        .container {
+            border: 5px solid #f7f7f7;
+            margin: 101px 31px;
+            border-radius: 32px;
+            padding: 60px 12px;
+            width: 609px;
+        }
+        
+        .div left p:hover {
+            background-color: beige;
+        }
