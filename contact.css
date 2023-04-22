@@ -1,0 +1,117 @@
+/* Body Styling */
+
+.title {
+    color: #b12b2b;
+    text-align: center;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    background: url("/crossimage.jpeg");
+    background-repeat: no-repeat;
+}
+
+.support {
+    text-decoration: none;
+}
+
+
+/* Header Styling */
+
+header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* Form Styling */
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #148f77;
+}
+
+input[type="reset"] {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+.support:hover {
+    /* 
+     */
+    /* color: #1abc9c; */
+    color: #D3D3D3;
+}
+
+.support2:hover {
+    /* 
+     */
+    /* color: #1abc9c; */
+    color: #D3D3D3;
+}
