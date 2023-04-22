@@ -89,9 +89,9 @@ input[type=email],
 input[type=number],
 select,
 textarea {
-    width: 100%;
+    width: 80%;
     padding: 12px;
-    border: 1px solid #deba9a;
+    border: 1px solid #806146;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -160,4 +160,8 @@ body {
 
 h2 {
     font-size: 2em;
+}
+
+.btn {
+    font-size: 1em;
 }
