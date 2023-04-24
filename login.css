@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /* background: linear-gradient(to right, #00b4db, #0083b0); */
+    background: linear-gradient(to bottom right, #8ddfd9, #0f8987);
+}
+
+.login-box {
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+    padding: 70px 30px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #bfc5bf, #137e7b);
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #008080;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #00b4db;
+    color: #000;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    display: block;
+}
+
+.login-box a:hover {
+    color: #00b4db;
+}
+
+.user-box {
+    position: relative;
+}
+
+.user-box input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.user-box input:focus~label,
+.user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #00b4db;
+    font-size: 12px;
+}
+
+.forgot {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.forgot a {
+    color: black;
+    margin: 10px;
+}
+
+body {
+    /* background: linear-gradient(to right, #00b4db, #0083b0); */
+    background: linear-gradient(to bottom right, #a8eca8, #2ccd7d);
+}
